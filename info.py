@@ -45,7 +45,7 @@ SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '14850741'))
 API_HASH = environ.get('API_HASH', 'e4e058636be1e24a7c20e681d7178694')
 NOR_IMG = environ.get("NOR_IMG", "")
-BOT_TOKEN = environ.get('BOT_TOKEN', '5834315400:AAEoVMRhMHF__LjjtHP_qihQJqbaj9_lnNw')
+BOT_TOKEN = environ.get('BOT_TOKEN', '6254221317:AAEte4Au06LBieomX4LTrrLCqdYFFTFlha8')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -75,10 +75,10 @@ TMP_DOWNLOAD_DIRECTORY = environ.get("TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
 COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://alaaska:alaaska@cluster0.raelgft.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Sulu")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://SongHyekyoBot:SongHyekyoBot@cluster0.spvjccb.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "SongHyekyoBot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
-MONGO_URL = os.environ.get('MONGO_URL', "mongodb+srv://alaaska:alaaska@cluster0.raelgft.mongodb.net/?retryWrites=true&w=majority")
+MONGO_URL = os.environ.get('MONGO_URL', "mongodb+srv://SongHyekyoBot:SongHyekyoBot@cluster0.spvjccb.mongodb.net/?retryWrites=true&w=majority")
 
 #Downloader
 DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
